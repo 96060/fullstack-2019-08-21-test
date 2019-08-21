@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.sbs.cuni.dto.Member;
 import com.sbs.cuni.service.MemberService;
 
+//안녕하세요
+
 @Controller
 public class MemberController {
 
