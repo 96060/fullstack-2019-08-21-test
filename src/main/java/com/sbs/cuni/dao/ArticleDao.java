@@ -27,7 +27,9 @@ public interface ArticleDao {
 	}
 
 	public Board getBoard(Object id);
-
+	
+	public void hitUp(long id);
+	
 	public Article getBoardId(Map<String, Object> args);
 
 	public void add(Map<String, Object> args);

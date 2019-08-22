@@ -15,12 +15,15 @@ import lombok.NoArgsConstructor;
 @EqualsAndHashCode
 public class Article {
 	private long id;
+	
 	private String regDate;
 	private String title;
 	private String body;
 	private String passwd;
 	private long memberId;
 	private long boardId;
+	private long hit;
+	
 	private Map<String, String> extra;
 
 	public String getBodyForPrint() {

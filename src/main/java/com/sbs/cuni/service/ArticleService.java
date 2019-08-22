@@ -23,6 +23,8 @@ public interface ArticleService {
 	public Article getBoardId(Map<String, Object> args);
 
 	public long add(Map<String, Object> args);
+	
+	public void hitUp(long id);
 
 	public long addReply(Map<String, Object> args);
 
